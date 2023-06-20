@@ -39,9 +39,14 @@
   border-radius: 30px;
 }
 
-.btn-white {
+.btn.btn-white {
   color: var(--black);
   background-color: var(--white);
+}
+
+.btn.btn-black {
+  color: var(--white);
+  background-color: var(--black);
 }
 
 /* Flex */
@@ -95,6 +100,11 @@ nav a {
 .jumbotron > .container {
   width: 50%;
   min-height: 250px;
+  color: var(--white);
+}
+
+.jumbotron > .container > .btn {
+  display: inline-block;
 }
 
 /* # SECTIONS */
