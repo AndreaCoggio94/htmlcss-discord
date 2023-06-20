@@ -223,6 +223,7 @@ section.bg-gray {
   color: var(--white);
   text-align: left;
   border-bottom: 2px solid var(--cyan);
+  padding-bottom: 20px;
 }
 
 .footer-top > .container > .col-30 > h3 {
@@ -249,9 +250,9 @@ section.bg-gray {
   padding: 2rem 0;
 }
 
-.footer-bottom > .container > * {
+/* .footer-bottom > .container > * {
   padding: 0.25rem 0.5rem;
-}
+} */
 
 /* ! DEBUG */
 
