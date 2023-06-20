@@ -97,6 +97,12 @@
   width: 25%;
 }
 
+/* height */
+
+.tall {
+  min-height: 350px;
+}
+
 /* # HEADER */
 
 header {
@@ -254,10 +260,6 @@ section.bg-gray {
 
 .debug .bg-lightpink {
   background-color: var(--lightpink);
-}
-
-.debug .tall {
-  min-height: 350px;
 }
 
 .debug .taller {
