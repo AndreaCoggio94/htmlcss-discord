@@ -1,6 +1,6 @@
 :root {
   /* # PALETTE COLORI */
-  --cyan: #add8e6;
+  --cyan: #8ea1e1;
   --black: #000000;
   --golden: #daa520;
   --blue: #00008b;
@@ -30,6 +30,16 @@
   max-width: 1180px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* list item */
+
+ul {
+  list-style-type: none;
+}
+
+ul li:first-child {
+  color: var(--cyan);
 }
 
 /* button */
@@ -195,9 +205,13 @@ section.bg-gray {
   text-align: center;
 }
 
-/* .main-section > .container > .taller > img {
-  width: 100%;
-} */
+.main-section > .container > .taller > h3 {
+  font-size: 1.5rem;
+  line-height: 50px;
+  background-image: url("../img/stars.svg");
+  width: 50%;
+  margin: auto auto 20px;
+}
 
 /* # FOOTER */
 
@@ -205,8 +219,29 @@ section.bg-gray {
   background-color: var(--darkgray);
 }
 
-.footer-top {
-  border: 1px solid var(--gray);
+.footer-top > .container {
+  color: var(--white);
+  text-align: left;
+  border-bottom: 2px solid var(--cyan);
+}
+
+.footer-top > .container > .col-30 > h3 {
+  font-size: 1.5rem;
+  color: var(--cyan);
+  padding: 0 20px 15px 0;
+}
+
+.footer-top > .container > .col-30 > img {
+  height: 1rem;
+  width: auto;
+}
+
+.footer-top > .container > .col-30 > span {
+  line-height: 1rem;
+}
+
+.footer-top > .container > .col-70 > .col-25 > ul > li {
+  padding-bottom: 10px;
 }
 
 .footer-top,
