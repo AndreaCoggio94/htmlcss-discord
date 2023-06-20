@@ -15,6 +15,7 @@
   --teal: #20b2aa;
   --aquamarine: #7fffd4;
   --lightpink: #ffb6c1;
+  --primary-header: #255ee9;
 }
 
 * {
@@ -30,6 +31,20 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+/* button */
+
+.btn {
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.btn-white {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+/* Flex */
 
 .flex {
   display: flex;
@@ -55,6 +70,14 @@
 
 header {
   padding: 1.5rem 0;
+  background-color: var(--primary-header);
+  color: var(--white);
+}
+
+nav a {
+  padding: 15px;
+  color: var(--white);
+  text-decoration: none;
 }
 
 /* # JUMBOTRON */
@@ -65,6 +88,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("../img/jumbo.png");
+  background-size: 100%;
 }
 
 .jumbotron > .container {
