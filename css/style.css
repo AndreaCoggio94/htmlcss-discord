@@ -37,6 +37,7 @@
 .btn {
   padding: 10px;
   border-radius: 30px;
+  display: inline-block;
 }
 
 .btn.btn-white {
@@ -47,6 +48,11 @@
 .btn.btn-black {
   color: var(--white);
   background-color: var(--black);
+}
+
+.btn.btn-cyan {
+  color: var(--white);
+  background-color: var(--cyan);
 }
 
 /* Flex */
@@ -147,7 +153,6 @@ nav a {
 }
 
 .jumbotron > .container > .btn {
-  display: inline-block;
   margin: 5px 10px;
 }
 
@@ -170,14 +175,29 @@ section.bg-gray {
   padding: 40px 50px 50px;
 }
 
-.main-section > .container > .col-40 > h2 {
+.main-section > .container > .col-40,
+.taller > h2 {
   font-size: 2rem;
   padding-bottom: 30px;
 }
 
-.main-section > .container > .col-40 > p {
+.main-section > .container > .col-40,
+.taller > p {
   font-size: 1rem;
 }
+
+.main-section > .container > .col-60,
+.taller > img {
+  width: 100%;
+}
+
+.main-section > .container > .taller {
+  text-align: center;
+}
+
+/* .main-section > .container > .taller > img {
+  width: 100%;
+} */
 
 /* # FOOTER */
 
