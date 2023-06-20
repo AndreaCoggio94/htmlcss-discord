@@ -88,7 +88,7 @@ nav a {
 /* # JUMBOTRON */
 
 .jumbotron {
-  min-height: 400px;
+  min-height: 450px;
   padding: 2rem 0;
   display: flex;
   justify-content: center;
@@ -101,10 +101,22 @@ nav a {
   width: 50%;
   min-height: 250px;
   color: var(--white);
+  text-align: center;
+}
+
+.jumbotron > .container > h1 {
+  font-size: 3rem;
+  padding-bottom: 30px;
+}
+
+.jumbotron > .container > p {
+  font-size: 1.25rem;
+  padding: 0 10px 15px;
 }
 
 .jumbotron > .container > .btn {
   display: inline-block;
+  margin: 5px 10px;
 }
 
 /* # SECTIONS */
