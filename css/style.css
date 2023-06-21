@@ -130,6 +130,7 @@ header {
   padding: 1.5rem 0;
   background-color: var(--primary-header);
   color: var(--white);
+  font-weight: bold;
 }
 
 nav a {
@@ -148,6 +149,7 @@ nav a {
   align-items: center;
   background-image: url("../img/jumbo.png");
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .jumbotron > .container {
@@ -191,29 +193,34 @@ section.bg-gray {
 }
 
 .main-section > .container > .col-40 > h2 {
-  font-size: 2rem;
-  padding-bottom: 30px;
+  font-size: 2.5rem;
+  padding: 30px;
+  margin-bottom: 2rem;
 }
 
 .main-section > .container > .taller > h2 {
-  font-size: 2rem;
-  padding-bottom: 30px;
+  font-size: 2.5rem;
+  padding: 30px;
+  margin-bottom: 1rem;
 }
 
 .main-section > .container > .col-40 > p {
   font-size: 1rem;
+  padding: 30px;
 }
 
 .main-section > .container > .taller > p {
   font-size: 1rem;
+  padding: 30px 10rem;
 }
 
 .main-section > .container > .col-60 > img {
-  width: 100%;
+  width: 80%;
+  text-align: right;
 }
 
 .main-section > .container > .taller > img {
-  width: 100%;
+  width: 80%;
 }
 
 .main-section > .container > .taller {
@@ -221,11 +228,25 @@ section.bg-gray {
 }
 
 .main-section > .container > .taller > h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 50px;
   background-image: url("../img/stars.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 2rem;
   width: 50%;
   margin: auto auto 20px;
+}
+
+.wave {
+  color: var(--gray);
+  display: block;
+}
+
+.upside-down {
+  transform: rotate(180deg);
+  position: relative;
+  bottom: 2px;
 }
 
 /* # FOOTER */
