@@ -173,6 +173,10 @@ nav a {
   margin: 5px 10px;
 }
 
+.jumbotron > .container > .btn > i {
+  padding-right: 5px;
+}
+
 /* # SECTIONS */
 
 section.bg-white {
@@ -238,6 +242,10 @@ section.bg-gray {
   margin: auto auto 20px;
 }
 
+.main-section > .container > .taller > .btn > i {
+  padding-right: 10px;
+}
+
 .wave {
   color: var(--gray);
   display: block;
@@ -286,10 +294,10 @@ section.bg-gray {
   padding: 2rem 0;
 }
 
-/* .footer-bottom > .container > * {
-  padding: 0.25rem 0.5rem;
-} */
-
+.icons > i {
+  font-size: 1.25rem;
+  padding: 20px 10px 0 0;
+}
 /* ! DEBUG */
 
 .debug .bordered {
