@@ -198,8 +198,8 @@ section.bg-gray {
 
 .main-section > .container > .col-40 > h2 {
   font-size: 2.5rem;
-  padding: 30px;
-  margin-bottom: 2rem;
+  padding: 0 30px;
+  margin-bottom: 1rem;
 }
 
 .main-section > .container > .taller > h2 {
